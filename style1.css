@@ -1,0 +1,31 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url(fundo1.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-blend-mode: luminosity;
+}
+.texto{
+    font-size: 32px;
+    color: black;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.roda{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(213, 220, 236);
+    font-size: 40px;
+}
